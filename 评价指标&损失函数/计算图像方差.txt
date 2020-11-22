@@ -1,0 +1,11 @@
+想求图像的方差，只需做两次卷积，一次是对原图卷积，一次是对原图的平方卷积，然后用后者减去前者的平方即可。
+
+求两图的协方差，只需做三次卷积，第一次是对两图的乘积卷积，第二次和第三次分别对两图本身卷积，然后用第一次的卷积结果减去第二、三次卷积结果的乘积。
+
+https://www.zhihu.com/collection/370011717
+
+在用matplotlib时，plt.ion()的动态显示始终显示不出来。
+
+经测试。Pycharm需要让plot视图单独弹出视窗才可以动态显示。
+
+File->Settings->Tools->Python scientific->取消Show plots in tool window前的√
